@@ -1,0 +1,6 @@
+2024-04-29 22:12:35,469 - INFO - 
+Start Training
+2024-04-29 22:12:35,469 - INFO - cuda
+2024-04-29 22:12:35,470 - INFO - {'type_exp': 'train', 'batch_size': 64, 'lr': 0.001, 'epoch': 500, 'eval_step': 10, 'optimizer': 'sgd', 'loss': 'cross_ent', 'weight_decay': None, 'dropout': None, 'scheduler': 'exp', 'seed': 10}
+2024-04-29 22:12:35,470 - INFO - {'in_channel_dim': 1, 'input_dim': 67, 'latent_dim': 32, 'type': 'conv'}
+2024-04-29 22:12:35,470 - INFO - {'output_dim': 4184, 'type': 'linear'}
