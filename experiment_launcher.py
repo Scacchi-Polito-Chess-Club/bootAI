@@ -69,6 +69,10 @@ def train(model: nn.Module, train_data: data.DataLoader, val_data: data.DataLoad
 
     if logger is not None:
         logger.info('\nStart Training')
+        logger.info(config['setup_args']['device'])
+        logger.info(config['exp_args'])
+        logger.info(config['encoder'])
+        logger.info(config['decoder'])
 
     for epoch in range(init_epoch, config['exp_args']['epoch']):
         t = time.time()

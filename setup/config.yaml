@@ -10,7 +10,7 @@ setup_args:
   wandb_name: null
   resume: false   # checkpoint path (if true, set path in resume_path)
   resume_path: null
-  device: "cpu"   # if gpu, set a value in n_gpu
+  device: "cuda"   # if gpu, set a value in n_gpu
   n_gpu: null
   logger: ['logfile', 'stdout']
 
@@ -32,7 +32,7 @@ encoder:
   in_channel_dim: 1 # channels of the input
   input_dim: 67    # input dimension of encoder
   latent_dim: 32   # dimension of encoded features
-  type: "conv"   # (linear, conv)
+  type: "linear"   # (linear, conv)
 
 decoder:
   output_dim: 4184 # output dimension of action space
