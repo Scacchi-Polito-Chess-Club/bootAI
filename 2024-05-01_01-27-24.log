@@ -1,0 +1,154 @@
+2024-05-01 01:27:31,590 - INFO - 
+Start Training
+2024-05-01 01:27:31,590 - INFO - cuda
+2024-05-01 01:27:31,590 - INFO - {'type_exp': 'train', 'batch_size': 64, 'lr': 0.05, 'epoch': 100, 'eval_step': 10, 'optimizer': 'sgd', 'loss': 'cross_ent', 'weight_decay': None, 'dropout': None, 'scheduler': 'exp', 'seed': 10}
+2024-05-01 01:27:31,590 - INFO - {'in_channel_dim': 1, 'input_dim': 67, 'latent_dim': 32, 'type': 'conv'}
+2024-05-01 01:27:31,590 - INFO - {'output_dim': 4184, 'type': 'linear'}
+2024-05-01 01:33:34,375 - INFO - 
+Epoch 0: Train avg loss  6.61256, Train accuracy 2.44%, Time required: 362.78s
+2024-05-01 01:34:02,217 - INFO - 
+Eval accuracy 3.32%, Eval avg loss 6.33915
+2024-05-01 01:37:28,562 - INFO - 
+Epoch 1: Train avg loss  6.03145, Train accuracy 3.88%, Time required: 206.34s
+2024-05-01 01:42:52,160 - INFO - 
+Epoch 2: Train avg loss  5.68041, Train accuracy 4.54%, Time required: 323.60s
+2024-05-01 01:46:18,747 - INFO - 
+Epoch 3: Train avg loss  6.03515, Train accuracy 5.20%, Time required: 206.59s
+2024-05-01 01:51:16,423 - INFO - 
+Epoch 4: Train avg loss  5.99296, Train accuracy 5.77%, Time required: 297.68s
+2024-05-01 02:07:14,916 - INFO - 
+Epoch 5: Train avg loss  6.47183, Train accuracy 6.16%, Time required: 958.49s
+2024-05-01 02:23:13,149 - INFO - 
+Epoch 6: Train avg loss  6.09604, Train accuracy 6.42%, Time required: 958.23s
+2024-05-01 02:39:11,439 - INFO - 
+Epoch 7: Train avg loss  5.89876, Train accuracy 6.62%, Time required: 958.29s
+2024-05-01 02:55:09,799 - INFO - 
+Epoch 8: Train avg loss  6.84938, Train accuracy 6.82%, Time required: 958.36s
+2024-05-01 03:10:20,822 - INFO - 
+Epoch 9: Train avg loss  5.78417, Train accuracy 6.99%, Time required: 911.02s
+2024-05-01 03:26:19,298 - INFO - 
+Epoch 10: Train avg loss  5.35962, Train accuracy 7.08%, Time required: 958.48s
+2024-05-01 03:26:47,266 - INFO - 
+Eval accuracy 7.08%, Eval avg loss 5.89786
+2024-05-01 03:42:17,574 - INFO - 
+Epoch 11: Train avg loss  5.92207, Train accuracy 7.22%, Time required: 930.30s
+2024-05-01 03:58:15,888 - INFO - 
+Epoch 12: Train avg loss  6.44554, Train accuracy 7.36%, Time required: 958.31s
+2024-05-01 04:14:14,229 - INFO - 
+Epoch 13: Train avg loss  5.65746, Train accuracy 7.46%, Time required: 958.34s
+2024-05-01 04:30:12,591 - INFO - 
+Epoch 14: Train avg loss  5.96178, Train accuracy 7.56%, Time required: 958.36s
+2024-05-01 04:46:10,895 - INFO - 
+Epoch 15: Train avg loss  5.65335, Train accuracy 7.66%, Time required: 958.30s
+2024-05-01 05:02:09,110 - INFO - 
+Epoch 16: Train avg loss  6.21003, Train accuracy 7.74%, Time required: 958.21s
+2024-05-01 05:18:13,046 - INFO - 
+Epoch 17: Train avg loss  5.81409, Train accuracy 7.82%, Time required: 963.94s
+2024-05-01 05:33:21,397 - INFO - 
+Epoch 18: Train avg loss  5.33689, Train accuracy 7.90%, Time required: 908.35s
+2024-05-01 05:49:19,640 - INFO - 
+Epoch 19: Train avg loss  6.16547, Train accuracy 7.93%, Time required: 958.24s
+2024-05-01 06:05:18,073 - INFO - 
+Epoch 20: Train avg loss  5.89789, Train accuracy 8.01%, Time required: 958.43s
+2024-05-01 06:05:46,285 - INFO - 
+Eval accuracy 7.70%, Eval avg loss 5.79730
+2024-05-01 06:21:16,291 - INFO - 
+Epoch 21: Train avg loss  5.66023, Train accuracy 8.08%, Time required: 930.00s
+2024-05-01 06:37:14,843 - INFO - 
+Epoch 22: Train avg loss  5.42328, Train accuracy 8.15%, Time required: 958.55s
+2024-05-01 06:53:13,145 - INFO - 
+Epoch 23: Train avg loss  5.67463, Train accuracy 8.22%, Time required: 958.30s
+2024-05-01 07:09:11,378 - INFO - 
+Epoch 24: Train avg loss  5.33891, Train accuracy 8.23%, Time required: 958.23s
+2024-05-01 07:25:09,691 - INFO - 
+Epoch 25: Train avg loss  5.73860, Train accuracy 8.32%, Time required: 958.31s
+2024-05-01 07:40:20,993 - INFO - 
+Epoch 26: Train avg loss  5.47835, Train accuracy 8.36%, Time required: 911.30s
+2024-05-01 07:56:19,413 - INFO - 
+Epoch 27: Train avg loss  5.84108, Train accuracy 8.38%, Time required: 958.42s
+2024-05-01 08:12:17,705 - INFO - 
+Epoch 28: Train avg loss  5.68423, Train accuracy 8.42%, Time required: 958.29s
+2024-05-01 08:28:16,422 - INFO - 
+Epoch 29: Train avg loss  5.28043, Train accuracy 8.46%, Time required: 958.72s
+2024-05-01 08:44:14,705 - INFO - 
+Epoch 30: Train avg loss  5.51559, Train accuracy 8.51%, Time required: 958.28s
+2024-05-01 08:44:42,731 - INFO - 
+Eval accuracy 8.35%, Eval avg loss 5.74729
+2024-05-01 09:00:13,008 - INFO - 
+Epoch 31: Train avg loss  5.75086, Train accuracy 8.49%, Time required: 930.27s
+2024-05-01 09:16:11,400 - INFO - 
+Epoch 32: Train avg loss  6.19812, Train accuracy 8.57%, Time required: 958.39s
+2024-05-01 09:30:18,665 - INFO - 
+Epoch 33: Train avg loss  5.19831, Train accuracy 8.59%, Time required: 847.26s
+2024-05-01 09:46:17,088 - INFO - 
+Epoch 34: Train avg loss  5.35584, Train accuracy 8.60%, Time required: 958.42s
+2024-05-01 10:02:15,491 - INFO - 
+Epoch 35: Train avg loss  5.46459, Train accuracy 8.68%, Time required: 958.40s
+2024-05-01 10:18:13,797 - INFO - 
+Epoch 36: Train avg loss  5.69686, Train accuracy 8.67%, Time required: 958.31s
+2024-05-01 10:34:12,175 - INFO - 
+Epoch 37: Train avg loss  5.72047, Train accuracy 8.74%, Time required: 958.38s
+2024-05-01 10:50:10,554 - INFO - 
+Epoch 38: Train avg loss  5.44282, Train accuracy 8.74%, Time required: 958.38s
+2024-05-01 11:06:08,990 - INFO - 
+Epoch 39: Train avg loss  5.93403, Train accuracy 8.73%, Time required: 958.44s
+2024-05-01 11:22:12,308 - INFO - 
+Epoch 40: Train avg loss  5.84072, Train accuracy 8.79%, Time required: 963.32s
+2024-05-01 11:22:40,278 - INFO - 
+Eval accuracy 8.58%, Eval avg loss 5.71853
+2024-05-01 11:29:01,125 - INFO - 
+Epoch 41: Train avg loss  5.44999, Train accuracy 8.82%, Time required: 380.84s
+2024-05-01 11:33:20,045 - INFO - 
+Epoch 42: Train avg loss  5.84896, Train accuracy 8.82%, Time required: 258.92s
+2024-05-01 11:48:08,314 - INFO - 
+Epoch 43: Train avg loss  5.40251, Train accuracy 8.83%, Time required: 888.27s
+2024-05-01 12:03:19,724 - INFO - 
+Epoch 44: Train avg loss  5.28746, Train accuracy 8.87%, Time required: 911.41s
+2024-05-01 12:19:17,927 - INFO - 
+Epoch 45: Train avg loss  6.44738, Train accuracy 8.87%, Time required: 958.20s
+2024-05-01 12:22:43,546 - INFO - 
+Epoch 46: Train avg loss  5.74741, Train accuracy 8.90%, Time required: 205.62s
+2024-05-01 12:26:11,157 - INFO - 
+Epoch 47: Train avg loss  5.55119, Train accuracy 8.92%, Time required: 207.61s
+2024-05-01 12:31:08,938 - INFO - 
+Epoch 48: Train avg loss  5.56204, Train accuracy 8.94%, Time required: 297.78s
+2024-05-01 12:47:08,611 - INFO - 
+Epoch 49: Train avg loss  5.61035, Train accuracy 8.94%, Time required: 959.67s
+2024-05-01 12:53:31,412 - INFO - 
+Epoch 50: Train avg loss  5.87598, Train accuracy 8.95%, Time required: 382.80s
+2024-05-01 12:53:59,680 - INFO - 
+Eval accuracy 8.70%, Eval avg loss 5.70172
+2024-05-01 13:09:08,704 - INFO - 
+Epoch 51: Train avg loss  5.76261, Train accuracy 8.97%, Time required: 909.02s
+2024-05-01 13:19:55,307 - INFO - 
+Epoch 52: Train avg loss  5.34932, Train accuracy 9.03%, Time required: 646.60s
+2024-05-01 13:23:20,704 - INFO - 
+Epoch 53: Train avg loss  5.57674, Train accuracy 9.01%, Time required: 205.40s
+2024-05-01 13:26:44,876 - INFO - 
+Epoch 54: Train avg loss  6.14232, Train accuracy 9.00%, Time required: 204.17s
+2024-05-01 13:40:19,119 - INFO - 
+Epoch 55: Train avg loss  5.55134, Train accuracy 9.03%, Time required: 814.24s
+2024-05-01 13:56:17,332 - INFO - 
+Epoch 56: Train avg loss  5.60444, Train accuracy 9.06%, Time required: 958.21s
+2024-05-01 14:12:15,510 - INFO - 
+Epoch 57: Train avg loss  5.34842, Train accuracy 9.05%, Time required: 958.18s
+2024-05-01 14:28:13,865 - INFO - 
+Epoch 58: Train avg loss  5.48007, Train accuracy 9.06%, Time required: 958.35s
+2024-05-01 14:36:21,288 - INFO - 
+Epoch 59: Train avg loss  5.60457, Train accuracy 9.06%, Time required: 487.42s
+2024-05-01 14:52:16,500 - INFO - 
+Epoch 60: Train avg loss  5.22884, Train accuracy 9.10%, Time required: 955.21s
+2024-05-01 14:52:44,497 - INFO - 
+Eval accuracy 8.76%, Eval avg loss 5.69266
+2024-05-01 15:08:14,864 - INFO - 
+Epoch 61: Train avg loss  5.87500, Train accuracy 9.08%, Time required: 930.36s
+2024-05-01 15:24:13,231 - INFO - 
+Epoch 62: Train avg loss  6.38846, Train accuracy 9.11%, Time required: 958.37s
+2024-05-01 15:34:17,830 - INFO - 
+Epoch 63: Train avg loss  5.54106, Train accuracy 9.13%, Time required: 604.60s
+2024-05-01 15:40:11,820 - INFO - 
+Epoch 64: Train avg loss  5.42672, Train accuracy 9.12%, Time required: 353.99s
+2024-05-01 15:47:29,802 - INFO - 
+Epoch 65: Train avg loss  5.59245, Train accuracy 9.11%, Time required: 437.98s
+2024-05-01 16:08:48,570 - INFO - 
+Epoch 66: Train avg loss  5.89157, Train accuracy 9.15%, Time required: 1278.77s
