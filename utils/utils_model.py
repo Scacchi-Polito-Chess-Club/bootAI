@@ -10,9 +10,9 @@ def get_autoencoder(encoder: str, decoder: str, latent_dim: int) -> nn.Module:
 
 def get_optimizer(model: nn.Module, type: str, lr: float):
     if type == 'sgd':
-        optim = torch.optim.SGD(params=model.parameters(), lr=lr)
+        optim = torch.optim.SGD(params=model.parameters(), lr=lr, weight_decay=10)
     elif type == 'adam':
-        optim = torch.optim.Adam(params=model.parameters(), lr=lr)
+        optim = torch.optim.Adam(params=model.parameters(), lr=lr, weight_decay=10)
     else:
         raise NotImplementedError(f'{type} optimizer not implemented yet')
     return optim
