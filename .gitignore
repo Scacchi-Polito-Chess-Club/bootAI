@@ -253,3 +253,6 @@ models/*.pt
 wandb/
 data/
 
+# Model and Optimizer .pt files
+optimizer*.pt
+model*pt
