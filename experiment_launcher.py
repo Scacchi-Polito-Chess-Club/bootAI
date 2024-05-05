@@ -117,6 +117,10 @@ def train(model: nn.Module, train_data: data.DataLoader, val_data: data.DataLoad
                         'loss': tot_loss,
                         }, pt_file)
             f.close()
+        if epoch % 5 == 0:
+            torch.save(model.state_dict(), "/home/ai-team/botAI/model_epoch_{}.pt".format(epoch))
+            torch.save(optimizer.state_dict(), "/home/ai-team/botAI/optimizer_epoch_{}.pt".format(epoch))
+
 
     return model
 
