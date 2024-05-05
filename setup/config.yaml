@@ -17,7 +17,7 @@ setup_args:
 exp_args:
   type_exp: "train"   #type of experiment (train, test)
   batch_size: 64
-  lr: 0.05    # learning rate
+  lr: 0.06    # learning rate
   epoch: 100
   eval_step: 10   # rate of evaluation step
   optimizer: "sgd"  # optimizer (sgd, adam)
